@@ -43,6 +43,26 @@
             </div>
         </section>
     </main>
+    <h1>📊 Campo & Cidade em Números</h1>
+    <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <section>
+      <h2>Produção Agrícola</h2>
+      <canvas id="graficoProducao"></canvas>
+    </section>
+  
+    <section>
+      <h2>Quiz: Você sabe a conexão campo-cidade?</h2>
+      <div id="quiz">
+        <p id="pergunta">Carregando pergunta...</p>
+        <button onclick="responder(true)">Verdadeiro</button>
+        <button onclick="responder(false)">Falso</button>
+        <p id="resultado"></p>
+      </div>
+    </section>
+  
+    <script src="script.js"></script>
     
     <footer>
         <p>Exemplo de projeto para o Agrinho 2025</p>
