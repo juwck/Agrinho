@@ -3,10 +3,10 @@ const ctx = document.getElementById('graficoProducao').getContext('2d');
 new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ['Soja', 'Milho', 'Leite', 'Café', 'Frutas'],
+    labels: ['Soja', 'Milho', 'Feijão', 'Cana-de-açúcar', 'Trigo'],
     datasets: [{
       label: 'Produção (milhões de toneladas)',
-      data: [120, 90, 30, 25, 20],
+      data: [22.4, 18.2, 1, 38.59, 3.64],
       backgroundColor: ['#4b6043', '#658354', '#87ab69', '#a3c585', '#c7ddb5']
     }]
   },
